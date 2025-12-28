@@ -10,6 +10,16 @@ HyperTextMarkUpLanguage:
     img atribute:
     https://www.w3schools.com/tags/att_img_width.asp
 
+    differences on p, h1, h2, div tags:
+    https://stackoverflow.com/questions/50996193/difference-between-putting-text-in-h1-h2-p-or-just-div
+
+    text justification shinenigans:
+    https://www.w3schools.com/cssref/css3_pr_text-justify.php
+
+    when to use div instead of p:
+    https://www.reddit.com/r/HTML/comments/oms7mq/when_should_i_use_div_instead_of_p/
+    
+
 
 
 Cascade StyleSheet:
@@ -42,6 +52,18 @@ Cascade StyleSheet:
 
     float property:
     https://www.w3schools.com/cssref/pr_class_float.php
+
+    CSS Books Effects:
+    https://freefrontend.com/css-book-effects/
+
+    CSS book flip page animation:
+    https://codepen.io/diemoritat/pen/LKROYZ
+
+    text color: 
+    https://www.w3schools.com/csS/css_text.asp
+
+    usage of responsive images:
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images
 
 
 JavaScript:
