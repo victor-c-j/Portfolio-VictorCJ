@@ -14,7 +14,8 @@ HyperTextMarkUpLanguage:
     https://stackoverflow.com/questions/50996193/difference-between-putting-text-in-h1-h2-p-or-just-div
 
     text justification shinenigans:
-    https://www.w3schools.com/cssref/css3_pr_text-justify.php
+    https://www.w3schools.com
+    /cssref/css3_pr_text-justify.php
 
     when to use div instead of p:
     https://www.reddit.com/r/HTML/comments/oms7mq/when_should_i_use_div_instead_of_p/
