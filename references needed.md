@@ -19,11 +19,29 @@ HyperTextMarkUpLanguage:
 
     when to use div instead of p:
     https://www.reddit.com/r/HTML/comments/oms7mq/when_should_i_use_div_instead_of_p/
+
+    font tag:
+    https://www.w3schools.com/tags/tag_font.asp
+
+    links:
+    https://www.w3schools.com/html/html_links.asp
+
+    toMail - forward link in html:
+    https://stackoverflow.com/questions/7576844/forward-link-in-html-email
     
 
 
 
 Cascade StyleSheet:
+
+    CSS Font-family:
+    https://www.w3schools.com/css/css_font.asp
+
+    Adding custom fonts:
+    https://www.w3schools.com/css/css3_fonts.asp
+
+    Minecraft font:
+    https://www.fontspace.com/category/minecraft
 
     css height, width and max-width:
     https://www.w3schools.com/Css/css_dimension.asp
@@ -65,6 +83,12 @@ Cascade StyleSheet:
 
     usage of responsive images:
     https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images
+
+    add custom font:
+    https://stackoverflow.com/questions/7961721/how-do-i-install-a-custom-font-on-an-html-site
+
+    css coments:
+    https://www.w3schools.com/css/css_comments.asp
 
 
 JavaScript:

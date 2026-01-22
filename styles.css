@@ -5,8 +5,15 @@ html {
 
 body {
     height: 100%;
+    font-family: "Arial";
+    font-size: x-large;
 }
 
+@font-face {
+    font-family: MinecraftItalic-R8Mo;
+    src: url(/resources/minecraft-font/MinecraftItalic-R8Mo.otf) format('truetype');
+
+}
 .avatar {
     width: 60%;
     height: auto;
@@ -14,23 +21,35 @@ body {
 
 .wrapper {
     display: flex;
-    gap: 10px;
-    justify-content: center;
+    flex-direction: row;
     border: solid 3px red;
 }
 
 .left {
+    img { 
+        align-self: center;
+        border: solid 1px red;
+    }
     width: 40%;
     height: 100%;
     border: 1px solid #000000;
-    text-align: center;
+    /* text-align: center; */
+}
 
+.links{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    a { 
+        margin: 1%;
+    }        
 }
 
 .right {
     h1 {text-align: center;}
     h2 {text-align: center;}
-    width: 40%;
+    width: 60%;
     border: 1px solid #1573aa;
 
 }
@@ -40,6 +59,21 @@ body {
 }
 
 .experience {
-    background-color: aqua;
+    /*background-color: aqua;*/
+    h1 {
+        font-family: MinecraftItalic-R8Mo;
+    }
     border: 1px solid black;
 }
+
+.projectsDisplay{
+    display: flex;
+    flex-direction: row;
+    
+    .project{
+        padding: 1%;
+        margin: 2%;
+        border: 1.5px solid rgb(172, 82, 9);
+    }
+}
+
