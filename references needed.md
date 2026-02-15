@@ -4,8 +4,14 @@ HyperTextMarkUpLanguage:
     What is the viewport
     https://www.w3schools.com/css/css_rwd_viewport.asp
 
+    A tag:
+    https://www.w3schools.com/tags/tag_a.asp
+
     Span tag:
     https://www.w3schools.com/tags/tag_span.asp
+
+    Text Formatting:
+    https://www.w3schools.com/html/html_formatting.asp
 
     img atribute:
     https://www.w3schools.com/tags/att_img_width.asp
@@ -28,6 +34,10 @@ HyperTextMarkUpLanguage:
 
     toMail - forward link in html:
     https://stackoverflow.com/questions/7576844/forward-link-in-html-email
+
+    Differences between an ID and a Class:
+    https://css-tricks.com/the-difference-between-id-and-class/
+    https://forum.freecodecamp.org/t/how-to-know-when-to-use-id-or-class/506353
     
 
 
@@ -37,11 +47,29 @@ Cascade StyleSheet:
     CSS Font-family:
     https://www.w3schools.com/css/css_font.asp
 
+    Text Color:
+    https://www.w3schools.com/css/css_text.asp
+
     Adding custom fonts:
     https://www.w3schools.com/css/css3_fonts.asp
 
+    Font weight:
+    https://www.w3schools.com/cssref/pr_font_weight.php
+
+    CSS Hover:
+    https://www.w3schools.com/cssref/sel_hover.php
+
+    Making borders round (border-radius):
+    https://www.w3schools.com/css/css3_borders.asp
+    
+    Responsive Image grid:
+    https://www.w3schools.com/HOWTO/howto_css_image_grid_responsive.asp
+
     Minecraft font:
     https://www.fontspace.com/category/minecraft
+
+    clamp() font size:
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp
 
     css height, width and max-width:
     https://www.w3schools.com/Css/css_dimension.asp
@@ -59,6 +87,9 @@ Cascade StyleSheet:
 
     How to add css
     https://www.w3schools.com/CSS/css_howto.asp
+
+    css selectors:
+    https://www.w3schools.com/css/css_selectors.asp
 
     css class selector:
     https://www.w3schools.com/cssref/sel_class.php

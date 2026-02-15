@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Victor CJ's portfolio</title>
-</head>
+  </head>
 
-<body>
-    <div class="menu">menu :)</div>
-    <div class="wrapper">
+  <body>
+    <div class="menu">
+      <a href="#experience">Experiencia</a>
+      <a href="#studies">Estudios</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#interests">Intereses</a>
+    </div>
+    <div class="bodyCard">
+      <div class="wrapper">
         <div class="left">
-            <img class="avatar" src="resources/msn home avatar.png" alt="avatar">
-            <!-- <p>Total LeetCode <br> problems solved:
+          <img
+            class="avatar"
+            src="resources/msn home avatar.png"
+            alt="avatar"
+          />
+          <!-- <p>Total LeetCode <br> problems solved:
                 <span id="leetCounter">0</span>
             </p>
             <p>Total projects:
@@ -25,78 +34,81 @@
             <p>Total OpenWebinars Certificates:
                 <span id="projectsCounter">0</span>
             </p> -->
-           <div class="links">
-             <a href="mailto:vcj0406cv@gmail.com">Mail</a>
-             <a href="https://github.com/victor-c-j">Github</a>
-             <a href="http://www.linkedin.com/in/victorcoloradojimenez">Linkedin</a>
-           </div>
+          <div class="links">
+            <a href="mailto:vcj0406cv@gmail.com">Mail</a>
+            <a href="https://github.com/victor-c-j">Github</a>
+            <a href="http://www.linkedin.com/in/victorcoloradojimenez"
+              >Linkedin</a
+            >
+          </div>
         </div>
         <div class="right">
-            <div class=translateButton>
-                <button> English</button>
-            </div>
-            <h2>Víctor CJ</h2>
-            <h1>Full stack developer</h1> <!-- Añadir estilo, titul principal-->
+          <div class="translateButton">
+            <button>English</button>
+          </div>
+          <h2>Víctor CJ</h2>
+          <h1>BackEnd Developer</h1>
+          <!-- Añadir estilo, titul principal-->
 
-            <p>Mi nombre es Víctor, soy graduado en un grado superior de Desarrollo de Aplicaciones Multiplataformas y
-                un grado medio en
-                Sistemas Microinformáticos y Redes. </p>
-            <p> Me encanta investigar cómo están hechos los juegos y las
-                aplicaciones que uso en mi día a día,
-                es a partir de esta curiosidad que nace mi afán por aprender y proponer nuevas soluciones
-                tecnológicas,siempre buscando hacer las cosas lo mejor posible.
-            </p>
+          <p>
+            Mi nombre es Víctor, soy graduado en un grado superior de Desarrollo
+            de Aplicaciones Multiplataformas y un grado medio en Sistemas
+            Microinformáticos y Redes.
+          </p>
+          <p>
+            Me encanta investigar cómo están hechos los juegos y las
+            aplicaciones que uso en mi día a día, es a partir de esta curiosidad
+            que nace mi afán por aprender y proponer nuevas soluciones
+            tecnológicas,siempre buscando hacer las cosas lo mejor posible.
+          </p>
         </div>
-
-    </div>
-    <br>
-    <div class="experience">
+      </div>
+      <br />
+      <div id="experience" class="experience">
         <h1>Experiencia</h1>
         <ul>
-            <li>Software developer en Team2Go</li>
-            <li>Tecnico y dependiente en electronica de consumo y moviles</li>
+          <li>Software developer en Team2Go</li>
+          <li>Tecnico y dependiente en electronica de consumo y moviles</li>
         </ul>
-    </div>
+      </div>
 
-    <div class="studies">
-        <h1> Estudios</h1>
+      <div id="studies" class="studies">
+        <h1>Estudios</h1>
         <ul>
-            <li>Curso Asersa 130 horas - RPG II, III, IV, FREE , MySQL, IBM AS/400, IBM i series, SDA, ERP Quivir</li>
-            <li>Grado Superior DAM</li>
-            <li>Grado Medio SMR</li>
+          <li>
+            Curso Asersa 130 horas - RPG II, III, IV, FREE , MySQL, IBM AS/400,
+            IBM i series, SDA, ERP Quivir
+          </li>
+          <li>Grado Superior DAM</li>
+          <li>Grado Medio SMR</li>
         </ul>
-    </div>
+      </div>
 
-    <div class="projects">
+      <div id="projects" class="projects">
         <h1>Proyectos</h1>
         Alguno de los proyectos que he realizado son:
         <div class="projectsDisplay">
-            <div class="project">
-                Fitness Tracker
-            </div>
-            <div class="project">
-                Java tiny 3D render simulation
-            </div>
-            <div class="project">
-                Flappy Bird
-            </div>
+          <div class="project">Fitness Tracker (Trabajo de Fin de Grado)</div>
+          <div class="project">Java tiny 3D render simulation</div>
+          <div class="project">Flappy Bird</div>
         </div>
-
-    </div>
-    <div class="Intereses">
+      </div>
+      <div id="interests" class="Intereses">
         <!-- Esto deberia ser una especie de entrada en un blog, como una especie de carrousell que puedes scrollear o que va pasando solo, pero puedes controlar el flow si lo tocas, algo asi, y que sean pequeñas tarjetas con las que mostrar un poco los intereses,  y salta a otra pagina mini art´iculo hablando del tema, aunque eso requeriria hacer una pagina rollo blog para cada una, se puede hacer en un futuro, pero por temas de tiempo, igual es mejor nombrar las cosas? no lo se, aun tengo que darle una vuelta o ver ejemplos-->
         <h1 class="interests">Intereses</h1>
         <ul>
-            <li>Explaining Reviewing code or tech like: </li>
-            <ul>
-                <li> Nintendo DS:
-                    ¿Qué es la nintendo DS?, Qué fue? ¿Cómo funciona? ¿Qué problemas encontraron los programadores en su
-                    desarrollo?
-                </li>
-                <li> MS DOS code on github: </li>
-                <li> Apollo Code on github, how was the code behind the moon landing?: </li>
-                <li> How to program like a jet pilot?:</li>
-                <!-- Aqui pondriamos un enlace para ver mas o un desplebable rollo 
+          <li>Explaining Reviewing code or tech like:</li>
+          <ul>
+            <li>
+              Nintendo DS: ¿Qué es la nintendo DS?, Qué fue? ¿Cómo funciona?
+              ¿Qué problemas encontraron los programadores en su desarrollo?
+            </li>
+            <li>MS DOS code on github:</li>
+            <li>
+              Apollo Code on github, how was the code behind the moon landing?:
+            </li>
+            <li>How to program like a jet pilot?:</li>
+            <!-- Aqui pondriamos un enlace para ver mas o un desplebable rollo 
                      (ver mas) y ya se veria el siguiente texto o algo parecido o bien como desplegable o 
                      una pagina aparte dedicada
                      
@@ -109,31 +121,34 @@
                          desentrañar secretos, ponernos en los zapatos de las personas que la desarrollaron,
                          entender las limitaciones tecnologicas a las que se enfrentaban, las soluciones que aplicaron para sortear dichas limitaciones.
                          Desgranar una pieza teconologica tan curiosa como amigable como es la Nintendo DS. Y esto es solo el principio, hay muchas mas consolas para investigar.</li>-->
-            </ul>
-            <li>Hardware: </li>
-            <ul>
-                <li>Reparación de PCs</li>
-                <li>Reparación de consolas</li>
-            </ul>
-            <li>Diseño: </li>
-            <ul>
-                <li>Diseño 3D</li>
-                <li>Animación</li>
-                <li>Dibujo</li>
-            </ul>
-            <li>Música</li>
-            <ul>
-                <li>Bajo</li>
-                <li>DAWs</li>
-                <li>Masayoshi Takanaka</li>
-            </ul>
+          </ul>
+          <li>Hardware:</li>
+          <ul>
+            <li>Reparación de PCs</li>
+            <li>Reparación de consolas</li>
+          </ul>
+          <li>Diseño:</li>
+          <ul>
+            <li>Diseño 3D</li>
+            <li>Animación</li>
+            <li>Dibujo</li>
+          </ul>
+          <li>Música</li>
+          <ul>
+            <li>Bajo</li>
+            <li>DAWs</li>
+            <li>Masayoshi Takanaka</li>
+          </ul>
         </ul>
-    </div>
+      </div>
 
-    <div class="otherThings">
-        <p>¿Quieres saber cómo he realizado esta web? Todas las paginas que he consultado <a href="references needed.md">aquí.</a> </p>
+      <div class="otherThings">
+        <p>
+          ¿Quieres saber cómo he realizado esta web? Todas las paginas que he
+          consultado <a href="references needed.md">aquí.</a>
+        </p>
         <p></p>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
